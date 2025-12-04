@@ -12,13 +12,11 @@ P = \frac{\sqrt{3}}{4} \cdot a^2
 
 ```mermaid
 flowchart TD
-    Start([Почетак])
-    Input[/"Унеси дужину странице a"/]
-    Calc[/"P = (√3 / 4) * a^2"/]
-    Output[/"Прикажи површину P"/]
-    End([Крај])
-
-    Start --> Input --> Calc --> Output --> End
+    A([START]) --> B[Unesi dužinu stranice a]
+    B --> C[Izračunaj P = (√3 / 4) * a²]
+    C --> D[Prikaži rezultat P]
+    D --> E([END])
+```
 
 ## Решење
 
