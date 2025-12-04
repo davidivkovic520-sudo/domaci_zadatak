@@ -12,10 +12,10 @@ P = \frac{\sqrt{3}}{4} \cdot a^2
 
 ```mermaid
 flowchart TD
-    A([START]) --> B[Unesi dužinu stranice a]
-    B --> C[Izračunaj P = (√3 / 4) * a²]
+    A[START] --> B[Unesi dužinu stranice a]
+    B --> C[Izračunaj P = √3 * a² / 4 ]
     C --> D[Prikaži rezultat P]
-    D --> E([END])
+    D --> E[END]
 ```
 
 ## Решење
