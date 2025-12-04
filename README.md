@@ -18,6 +18,8 @@ flowchart TD
     Output[/"Прикажи површину P"/]
     End([Крај])
 
+    Start --> Input --> Calc --> Output --> End
+
 ## Решење
 
 ```cs
